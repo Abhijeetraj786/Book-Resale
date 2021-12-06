@@ -93,7 +93,6 @@ export default function MapScreen(props) {
       });
     }
   }
-
   return googleApiKey ? (
     <div className="full-container">
       <LoadScript libraries={libs} googleMapsApiKey={googleApiKey}>
