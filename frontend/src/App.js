@@ -45,7 +45,7 @@ useEffect(() => {
     }
   }
  
-}, [])
+}, [socket, userInfo])
   const openMenu = () =>{
     document.querySelector(".sidemenu").classList.add('open');
   }
